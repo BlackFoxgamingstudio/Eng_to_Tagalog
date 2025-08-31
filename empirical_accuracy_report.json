@@ -1,0 +1,107 @@
+{
+  "test_summary": {
+    "date": "2025-08-31T16:14:51.598275",
+    "total_tests": 5,
+    "successful_tests": 5,
+    "failed_tests": 0,
+    "total_time": 8.1,
+    "model_used": "gpt-4o-mini",
+    "temperature": 0.2
+  },
+  "accuracy_metrics": {
+    "semantic_fidelity": 68.5,
+    "term_preservation": 70.0,
+    "grammatical_accuracy": 95.0,
+    "overall_accuracy": 76.9,
+    "average_processing_time": 1.62
+  },
+  "detailed_results": [
+    {
+      "test_id": "TECH_001",
+      "category": "technical",
+      "english": "The application requires a minimum of 8GB RAM and 50GB of free disk space.",
+      "reference": "Ang aplikasyon ay nangangailangan ng minimum na 8GB RAM at 50GB ng libreng disk space.",
+      "translated": "Ang aplikasyon ay nangangailangan ng hindi bababa sa 8GB na RAM at 50GB na libreng espasyo sa disk.",
+      "semantic_score": 57.9,
+      "term_preservation": 50.0,
+      "grammar_score": 95.0,
+      "overall_score": 66.7,
+      "processing_time": 1.41,
+      "errors": []
+    },
+    {
+      "test_id": "LIT_001",
+      "category": "literary",
+      "english": "The sun set behind the mountains, painting the sky with brilliant hues of orange and purple.",
+      "reference": "Ang araw ay lumubog sa likod ng mga bundok, nagpipinta sa kalangitan ng makislap na kulay ng kahel at lila.",
+      "translated": "Lumubog ang araw sa likod ng mga bundok, pininturahan ang langit ng mga makislap na kulay kahel at lila.",
+      "semantic_score": 73.7,
+      "term_preservation": 100.0,
+      "grammar_score": 95.0,
+      "overall_score": 88.0,
+      "processing_time": 1.19,
+      "errors": []
+    },
+    {
+      "test_id": "NEWS_001",
+      "category": "news",
+      "english": "The government announced new economic policies today that aim to boost local businesses.",
+      "reference": "Inanunsyo ng pamahalaan ang mga bagong patakaran sa ekonomiya ngayon na naglalayong pasiglahin ang mga lokal na negosyo.",
+      "translated": "Inanunsyo ng gobyerno ang mga bagong patakaran sa ekonomiya ngayon na naglalayong pasiglahin ang mga lokal na negosyo.",
+      "semantic_score": 87.5,
+      "term_preservation": 100.0,
+      "grammar_score": 95.0,
+      "overall_score": 93.5,
+      "processing_time": 1.47,
+      "errors": []
+    },
+    {
+      "test_id": "CONV_001",
+      "category": "conversational",
+      "english": "Hey, do you want to grab lunch together? I heard there's a new restaurant downtown.",
+      "reference": "Hoy, gusto mo bang kumain tayo ng tanghalian? Narinig ko na may bagong restaurant sa downtown.",
+      "translated": "Uy, gusto mo bang mag-lunch tayo? Narinig ko may bagong restaurant sa downtown.",
+      "semantic_score": 52.6,
+      "term_preservation": 100.0,
+      "grammar_score": 95.0,
+      "overall_score": 79.6,
+      "processing_time": 0.75,
+      "errors": []
+    },
+    {
+      "test_id": "MED_001",
+      "category": "medical",
+      "english": "Patients should take the medication twice daily with meals. Contact your doctor if symptoms persist.",
+      "reference": "Ang mga pasyente ay dapat uminom ng gamot dalawang beses sa isang araw kasama ang pagkain. Makipag-ugnayan sa iyong doktor kung ang mga sintomas ay nagpapatuloy.",
+      "translated": "Dapat inumin ng mga pasyente ang gamot dalawang beses sa isang araw kasama ng pagkain. Makipag-ugnayan sa iyong doktor kung magpatuloy ang mga sintomas.",
+      "semantic_score": 70.8,
+      "term_preservation": 0.0,
+      "grammar_score": 95.0,
+      "overall_score": 56.8,
+      "processing_time": 3.28,
+      "errors": []
+    }
+  ],
+  "category_breakdown": {
+    "literary": {
+      "count": 1,
+      "average_score": 88.0
+    },
+    "news": {
+      "count": 1,
+      "average_score": 93.5
+    },
+    "conversational": {
+      "count": 1,
+      "average_score": 79.6
+    },
+    "medical": {
+      "count": 1,
+      "average_score": 56.8
+    },
+    "technical": {
+      "count": 1,
+      "average_score": 66.7
+    }
+  }
+}
