@@ -71,12 +71,12 @@ Choose your operating system and set the environment variable:
 
 **macOS / Linux:**
 ```bash
-export OPENAI_API_KEY='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'
+export OPENAI_API_KEY='key-here'
 ```
 
 **Windows PowerShell:**
 ```powershell
-$env:OPENAI_API_KEY = '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'
+$env:OPENAI_API_KEY = 'key-here'
 ```
 
 ## Usage Examples
